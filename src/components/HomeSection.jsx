@@ -17,8 +17,8 @@ export const HomeSection = () => {
           </h1>
 
           <p align='justify' className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I am a dedicated Computer Science and Engineering graduate with hands-on experience in IT support and network administration. 
-            Experienced in troubleshooting hardware and software issues and managing IT assets. 
+            I am a dedicated Computer Science and Engineering graduate with hands-on experience in IT support and network administration. <br />
+            Experienced in troubleshooting hardware and software issues and managing IT assets. <br />
             In anything I accomplish, I try to do it to the best of my ability. I'm committed to finishing tasks on schedule.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
