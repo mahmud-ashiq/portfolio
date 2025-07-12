@@ -28,7 +28,7 @@ export const HomeSection = () => {
               </a>
 
               <a
-                href="./public/Ashiq_CV.pdf" download
+                href="https://drive.google.com/drive/folders/13qvF7wQX7Cr77nBgL6ScPZTYvG-0Qf8h?usp=sharing" download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
