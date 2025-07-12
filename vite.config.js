@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite';
+import { defineConfig} from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
-import { fileURLToPath } from 'url';
+//import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+//const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -14,5 +14,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: import.meta.env.VITE_BASE_PATH || "/portfolio",
+  base: process.env.VITE_BASE_PATH || "/portfolio",
 });
