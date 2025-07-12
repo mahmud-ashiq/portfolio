@@ -3,33 +3,61 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "OS Project",
+    description: 
+    `Played a pivotal role in preparing 750 laptops for Daraz’s largest annual campaign, 11.11, in 2 weeks.
+    Installed operating systems and configured essential software to ensure campaign preparation.`,
+    image: "/os.png",
+    tags: ["IT Support", "Windows"],
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
+    {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Mail Migration",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      `Contributed to Daraz's successful migration from Google’s mail server to Alibaba’s domain.
+      Manually migrated group email accounts, preserving communication history and settings.`,
+    image: "/alimail.jpg",
+    tags: ["IT Operations Management"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "PDF AI Extractor",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      `A tool to extract form data and embedded files from PDF documents using PyMuPDF and EasyOCR.
+      Integrated Google Gemini AI via LangChain to generate intelligent summaries of the extracted content.
+`,
+    image: "/pdf.png",
+    tags: ["Python", "LangChain", "Google Gemini"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/mahmud-ashiq/pdf_ai_extractor",
   },
+  {
+    id: 4,
+    title: "Online Healthcare",
+    description:
+      `Developed a web-based healthcare portal for appointments, payments, and a doctor-patient chat system.`,
+    image: "/portal.png",
+    tags: ["PHP", "MongoDB", "JavaScript" ],
+    demoUrl: "#",
+    githubUrl: "https://github.com/mahmud-ashiq/online_healthcare",
+  },
+  {
+    id: 5,
+    title: "Portable Air Pollution Analyzer",
+    description:
+      `Developed a portable air quality monitoring device using Arduino.
+      Integrated PM10/PM2.5 sensors to measure particulate matter and assess AQI.
+      Designed a user-friendly interface for displaying air quality metrics.`,
+    image: "/Arduino.jpg",
+    tags: ["Arduino", "Embedded Systems" ],
+    demoUrl: "#",
+    githubUrl: "",
+  },
+
 ];
 
 export const ProjectsSection = () => {
@@ -47,9 +75,9 @@ export const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => (
+          {projects.map((project) => (
             <div
-              key={key}
+              key={project.id}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -70,18 +98,18 @@ export const ProjectsSection = () => {
                 </div>
 
                 <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-muted-foreground text-sm mb-4 text-justify">
                   {project.description}
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"

@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { cn } from "@/lib/utils";
-
 const skills = [
   // Language
   { name: "Python", level: 95, category: "language" },
@@ -44,6 +41,7 @@ const groupedSkills = skills.reduce((acc, skill) => {
 const leftColumnCategories = ["language", "software development", "database management"];
 const rightColumnCategories = ["deep learning frameworks", "tools"];
 
+
 export const SkillsSection = () => {
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
@@ -60,13 +58,23 @@ export const SkillsSection = () => {
                 <h3 className="text-xl font-semibold mb-4 capitalize text-primary">
                   {category}
                 </h3>
+
                 <div className="grid grid-cols-2 gap-4">
                   {groupedSkills[category]?.map((skill, index) => (
                     <div
                       key={index}
-                      className="bg-card p-4 rounded-lg shadow-sm text-center border"
+                      className="bg-card p-4 rounded-lg shadow-sm text-center border 
+                                 transition-all duration-300 ease-in-out
+                                 hover:shadow-lg hover:shadow-primary/20
+                                 hover:scale-105 hover:bg-primary/5
+                                 hover:border-primary/30 hover:-translate-y-1
+                                 cursor-pointer group"
                     >
-                      <span className="text-sm font-medium">{skill.name}</span>
+                      <span className="text-sm font-medium 
+                                     transition-colors duration-300
+                                     group-hover:text-primary">
+                        {skill.name}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -85,9 +93,18 @@ export const SkillsSection = () => {
                   {groupedSkills[category]?.map((skill, index) => (
                     <div
                       key={index}
-                      className="bg-card p-4 rounded-lg shadow-sm text-center border"
+                      className="bg-card p-4 rounded-lg shadow-sm text-center border 
+                                 transition-all duration-300 ease-in-out
+                                 hover:shadow-lg hover:shadow-primary/20
+                                 hover:scale-105 hover:bg-primary/5
+                                 hover:border-primary/30 hover:-translate-y-1
+                                 cursor-pointer group"
                     >
-                      <span className="text-sm font-medium">{skill.name}</span>
+                      <span className="text-sm font-medium 
+                                     transition-colors duration-300
+                                     group-hover:text-primary">
+                        {skill.name}
+                      </span>
                     </div>
                   ))}
                 </div>
