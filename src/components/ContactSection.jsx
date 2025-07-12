@@ -1,7 +1,5 @@
-import {
-  LinkedInIcon as Linkedin,
-  Mail,
-} from "lucide-react";
+import {Mail} from "lucide-react";
+import { FaLinkedin } from 'react-icons/fa';
 
 export const ContactSection = () => {
 
@@ -25,7 +23,7 @@ export const ContactSection = () => {
             rel="noopener noreferrer"
             className="text-[#0A66C2] hover:opacity-80 transition-opacity"
           >
-            <Linkedin className="w-10 h-10" />
+            <FaLinkedin className="w-10 h-10" />
           </a>
           <a
             href="mailto:m.ashiqfida@gmail.com"

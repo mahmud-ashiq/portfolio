@@ -12,11 +12,7 @@ export const HomeSection = () => {
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Mahmud Al Ashiq
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-              
+              Ashiq
             </span>
           </h1>
 
@@ -32,7 +28,7 @@ export const HomeSection = () => {
               </a>
 
               <a
-                href=""
+                href="./public/Ashiq_CV.pdf" download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
