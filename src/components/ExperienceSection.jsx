@@ -6,7 +6,7 @@ import {
 
 export const ExperienceSection = () => {
   return (
-      <section id="experience" className="py-24 px-4 relative">
+      <section id="experience" className="py-20 px-1 relative">
         {" "}
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -28,7 +28,7 @@ export const ExperienceSection = () => {
                       GIGA Tech Ltd.
                     </p>
                     <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                    <span className="flex items-center gap-1">
+                    <span className="flex items-center gap-2">
                       <Calendar className="h-8 w-4" />
                           Jul 2025 - Present
                     </span>
@@ -37,7 +37,7 @@ export const ExperienceSection = () => {
                           Dhaka, Bangladesh
                         </span>
                         </div>
-                    <p className="text-muted-foreground leading-relaxed text-justify ">
+                    <p className="text-muted-foreground leading-relaxed text-left ">
                             <li> Assisting in IT infrastructure management and security operations.</li>
                             <li> Supporting network administration and system maintenance tasks.</li>
                             <li> Collaborating with senior engineers on IT projects and initiatives.</li>
