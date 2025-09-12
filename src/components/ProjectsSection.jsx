@@ -3,7 +3,19 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "OS Project",
+    title: "Disaster Recovery (DR) of Unified SCADA System",
+    description: 
+    `Contributed to the Disaster Recovery setup of a Unified SCADA System by deploying HPE ProLiant servers, 
+    Alletra 9000 Storage, SAN Switch, and Tape Library. Configured ESXi, Windows/Linux servers, and integrated 
+    storage with HPE GreenLake and InfoSight for monitoring and resilience.`,
+    image: "/dr.jpg",
+    tags: ["Servers", "Virtualization", "Storage", "Backup & Recovery"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 2,
+    title: "OS Deployment for 11.11 Campaign",
     description: 
     `Played a pivotal role in preparing 750 laptops for Daraz’s largest annual campaign, 11.11, in 2 weeks.
     Installed operating systems and configured essential software to ensure campaign preparation.`,
@@ -13,8 +25,8 @@ const projects = [
     githubUrl: "#",
   },
     {
-    id: 2,
-    title: "Mail Migration",
+    id: 3,
+    title: "Enterprise Mail Migration",
     description:
       `Contributed to Daraz's successful migration from Google’s mail server to Alibaba’s domain.
       Manually migrated group email accounts, preserving communication history and settings.`,
@@ -24,7 +36,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "PDF AI Extractor",
     description:
       `A tool to extract form data and embedded files from PDF documents using PyMuPDF and EasyOCR.
@@ -36,7 +48,7 @@ const projects = [
     githubUrl: "https://github.com/mahmud-ashiq/pdf_ai_extractor",
   },
   {
-    id: 4,
+    id: 5,
     title: "Online Healthcare",
     description:
       `Developed a web-based healthcare portal for appointments, payments, and a doctor-patient chat system.`,
@@ -46,7 +58,7 @@ const projects = [
     githubUrl: "https://github.com/mahmud-ashiq/online_healthcare",
   },
   {
-    id: 5,
+    id: 6,
     title: "Portable Air Pollution Analyzer",
     description:
       `Developed a portable air quality monitoring device using Arduino.

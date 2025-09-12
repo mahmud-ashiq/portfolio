@@ -4,26 +4,33 @@ const skills = [
   { name: "PHP", level: 90, category: "language" },
 
 
-  // sw development
-  { name: "Laravel", level: 80, category: "software development" },
-  { name: "REST API", level: 75, category: "software development" },
-  { name: "PL/SQL", level: 70, category: "software development" },
+  // Servers & Virtualization
+  { name: "HPE ProLiant DL380", level: 80, category: "servers & virtualization" },
+  { name: "VMware ESXi", level: 75, category: "servers & virtualization" },
+  { name: "Windows Server 2025", level: 70, category: "servers & virtualization" },
+  { name: "Linux (CentOS)", level: 70, category: "servers & virtualization" },
 
-    // db management
-  { name: "MySQL", level: 80, category: "database management" },
+    // Networking & Security
+  { name: "DNS", level: 80, category: "networking & security" },
+  { name: "DHCP", level: 75, category: "networking & security" },
+  { name: "NTP", level: 70, category: "networking & security" },
+  { name: "SAN Zoning", level: 65, category: "networking & security" },
+  { name: "ISP Link Monitoring", level: 85, category: "networking & security" },
+
+  // Backup & Recovery
+  { name: "Commvault APIs", level: 85, category: "backup & recovery" },
+  { name: "VM Failover Automation", level: 80, category: "backup & recovery" },
+
+  // Database Management
+  { name: "MySQL", level: 70, category: "database management" },
   { name: "MongoDB", level: 75, category: "database management" },
 
-  // Deep Learning Frameworks
-  { name: "TensorFlow", level: 85, category: "deep learning frameworks" },
-  { name: "PyTorch", level: 80, category: "deep learning frameworks" },
-
-  // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Linux", level: 70, category: "tools" },
-  { name: "Winbox", level: 85, category: "tools" },
-  { name: "ServiceNow", level: 95, category: "tools" },
-  { name: "ManageEngine", level: 85, category: "tools" },
-  { name: "Cisco Packet Tracer", level: 95, category: "tools" },
+  // Tools & Technologies
+  { name: "Git", level: 90, category: "tools & technologies" },
+  { name: "Linux", level: 70, category: "tools & technologies" },
+  { name: "Winbox", level: 85, category: "tools & technologies" },
+  { name: "ServiceNow", level: 95, category: "tools & technologies" },
+  { name: "ManageEngine", level: 85, category: "tools & technologies" },
 ];
 
 
@@ -38,8 +45,8 @@ const groupedSkills = skills.reduce((acc, skill) => {
 }, {});
 
 // Manually assign category order
-const leftColumnCategories = ["language", "software development", "database management"];
-const rightColumnCategories = ["deep learning frameworks", "tools"];
+const leftColumnCategories = ["language", "servers & virtualization", "networking & security"];
+const rightColumnCategories = ["backup & recovery", "database management", "tools & technologies"];
 
 
 export const SkillsSection = () => {

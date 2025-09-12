@@ -16,24 +16,31 @@ export const HomeSection = () => {
             </span>
           </h1>
 
-          <p align='justify' className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I am a dedicated Computer Science and Engineering graduate with hands-on experience in IT support and network administration. <br />
-            Experienced in troubleshooting hardware and software issues and managing IT assets. <br />
-            In anything I accomplish, I try to do it to the best of my ability. I'm committed to finishing tasks on schedule.
+          <p
+            align="justify"
+            className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3"
+          >
+            Experienced IT professional specializing in server administration,
+            virtualization, and IT Support. Proven ability to troubleshoot
+            hardware/software issues and ensure smooth IT operations. In
+            anything I accomplish, I try to do it to the best of my ability. I'm
+            committed to finishing tasks on schedule.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
-                {" "}
-                Get In Touch
-              </a>
+            <a href="#contact" className="cosmic-button">
+              {" "}
+              Get In Touch
+            </a>
 
-              <a
-                href="https://drive.google.com/drive/folders/13qvF7wQX7Cr77nBgL6ScPZTYvG-0Qf8h?usp=sharing" download
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                Download CV
-              </a>
-            </div>
+            <a
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+            >
+              View CV
+            </a>
+          </div>
           {/* <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
               View My Work
