@@ -21,7 +21,7 @@ export const HomeSection = () => {
             className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3"
           >
             Experienced IT professional specializing in server administration,
-            virtualization, and IT Support. Proven ability to troubleshoot
+            virtualization, backup and IT Support. Proven ability to troubleshoot
             hardware/software issues and ensure smooth IT operations. In
             anything I accomplish, I try to do it to the best of my ability. I'm
             committed to finishing tasks on schedule.
@@ -33,7 +33,7 @@ export const HomeSection = () => {
             </a>
 
             <a
-              href="/cv.pdf"
+              href="/Ashiq_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
