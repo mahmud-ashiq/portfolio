@@ -13,7 +13,40 @@ export const ExperienceSection = () => {
         </h2>
 
         <div className="space-y-6 sm:space-y-8 text-left">
-          
+
+          <div className="gradient-border p-4 sm:p-6 card-hover">
+            <div className="flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-4">
+              <div className="p-2 sm:p-3 rounded-full bg-primary/10">
+                <Building className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
+              </div>
+              <div className="flex-1 min-w-0 ">
+                <h4 className="font-semibold text-lg sm:text-xl mb-1">
+                  Officer- System Integration
+                </h4>
+                <p className="text-primary font-semibold mb-2">
+                  Wyze Tech Limited
+                </p>
+                <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm text-muted-foreground mb-3">
+                  <span className="flex items-center gap-2">
+                    <Calendar className="h-4 w-4 flex-shrink-0" />
+                    Nov 2025 - Present
+                  </span>
+                  <span className="flex items-center gap-2">
+                    <MapPin className="h-4 w-4 flex-shrink-0" />
+                    Dhaka, Bangladesh
+                  </span>
+                </div>
+                <ul className="text-muted-foreground leading-relaxed space-y-1 text-sm sm:text-base test-justify">
+                  <li>• Manage VMware ESXi and vCenter virtualization environments.</li>
+                  <li>• Administer Windows Server, Linux, Active Directory, and DNS services.</li>
+                  <li>• Configure and support HPE servers and handle HPE hardware/support cases.</li>
+                  <li>• Provide operational support and troubleshoot issues across servers, virtualization, storage, and OS platforms.</li>
+                  <li>• Assist in creating and maintaining technical documentation to support day-to-day operations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           <div className="gradient-border p-4 sm:p-6 card-hover">
             <div className="flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-4">
               <div className="p-2 sm:p-3 rounded-full bg-primary/10">
@@ -24,12 +57,12 @@ export const ExperienceSection = () => {
                   IT Infra Operations & Security Apprentice
                 </h4>
                 <p className="text-primary font-semibold mb-2">
-                  GIGA Tech Ltd.
+                  GIGA Tech Limited
                 </p>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm text-muted-foreground mb-3">
                   <span className="flex items-center gap-2">
                     <Calendar className="h-4 w-4 flex-shrink-0" />
-                    Jul 2025 - Present
+                    Jul 2025 - Oct 2025
                   </span>
                   <span className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 flex-shrink-0" />
