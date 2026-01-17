@@ -3,6 +3,19 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Directorate General of Food (DG Food) Infrastructure & Operations Monitoring",
+    description: 
+    `Performed continuous server and virtual machine health monitoring. 
+    Monitored backup operations and job status, ensuring successful data protection. 
+    Conducted log reviews and alert analysis to detect system anomalies, and potential risks. 
+    Escalated incidents and coordinated with vendors and internal teams to resolve.`,
+    image: "./dgf.jpg",
+    tags: ["Servers", "Virtualization", "Storage", "Backup & Recovery"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 2,
     title: "Disaster Recovery (DR) of Unified SCADA System",
     description: 
     `Contributed to the Disaster Recovery setup of a Unified SCADA System by deploying HPE ProLiant servers, 
@@ -14,7 +27,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 2,
+    id: 3,
     title: "OS Deployment for 11.11 Campaign",
     description: 
     `Played a pivotal role in preparing 750 laptops for Daraz’s largest annual campaign, 11.11, in 2 weeks.
@@ -25,7 +38,7 @@ const projects = [
     githubUrl: "#",
   },
     {
-    id: 3,
+    id: 4,
     title: "Enterprise Mail Migration",
     description:
       `Contributed to Daraz's successful migration from Google’s mail server to Alibaba’s domain.
@@ -35,8 +48,8 @@ const projects = [
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 4,
+  /*{
+    id: 5,
     title: "PDF AI Extractor",
     description:
       `A tool to extract form data and embedded files from PDF documents using PyMuPDF and EasyOCR.
@@ -48,7 +61,7 @@ const projects = [
     githubUrl: "https://github.com/mahmud-ashiq/pdf_ai_extractor",
   },
   {
-    id: 5,
+    id: 6,
     title: "Online Healthcare",
     description:
       `Developed a web-based healthcare portal for appointments, payments, and a doctor-patient chat system.`,
@@ -58,7 +71,7 @@ const projects = [
     githubUrl: "https://github.com/mahmud-ashiq/online_healthcare",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portable Air Pollution Analyzer",
     description:
       `Developed a portable air quality monitoring device using Arduino.
@@ -68,7 +81,8 @@ const projects = [
     tags: ["Arduino", "Embedded Systems" ],
     demoUrl: "#",
     githubUrl: "",
-  },
+  },"
+  */
 
 ];
 

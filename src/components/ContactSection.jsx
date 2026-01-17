@@ -26,7 +26,7 @@ export const ContactSection = () => {
             <FaLinkedin className="w-10 h-10" />
           </a>
           <a
-            href="mailto:m.ashiqfida@gmail.com"
+            href="mailto:mahmudashiq36@gmail.com"
             className="text-[#D14836] hover:opacity-80 transition-opacity"
           >
             <Mail className="w-10 h-10" />

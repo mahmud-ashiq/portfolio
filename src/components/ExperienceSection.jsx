@@ -33,15 +33,17 @@ export const ExperienceSection = () => {
                   </span>
                   <span className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 flex-shrink-0" />
-                    Dhaka, Bangladesh
+                    Gulshan, Dhaka, Bangladesh
                   </span>
                 </div>
                 <ul className="text-muted-foreground leading-relaxed space-y-1 text-sm sm:text-base test-justify">
-                  <li>• Manage VMware ESXi and vCenter virtualization environments.</li>
-                  <li>• Administer Windows Server, Linux, Active Directory, and DNS services.</li>
-                  <li>• Configure and support HPE servers and handle HPE hardware/support cases.</li>
+                  <li>• Manage and monitor VMware ESXi and vCenter virtualization environments.</li>
+                  <li>• Administer and troubleshoot Windows Server, Linux (RHEL/CentOS, Ubuntu), Active Directory, and DNS services.</li>
+                  <li>• Perform continuous monitoring of servers and virtual machines, including CPU, memory, and storage utilization.</li>
+                  <li>• Review system and security logs to identify issues, anomalies, and potential security risks.</li>
+                  <li>• Manage user accounts, permissions, and access controls in line with security policies.</li>
                   <li>• Provide operational support and troubleshoot issues across servers, virtualization, storage, and OS platforms.</li>
-                  <li>• Assist in creating and maintaining technical documentation to support day-to-day operations.</li>
+                  <li>• Maintain technical documentation and support operational reporting and process improvement initiatives.</li>
                 </ul>
               </div>
             </div>
@@ -66,7 +68,7 @@ export const ExperienceSection = () => {
                   </span>
                   <span className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 flex-shrink-0" />
-                    Dhaka, Bangladesh
+                    Gulshan, Dhaka, Bangladesh
                   </span>
                 </div>
                 <ul className="text-muted-foreground leading-relaxed space-y-1 text-sm sm:text-base test-justify">
@@ -101,7 +103,7 @@ export const ExperienceSection = () => {
                   </span>
                   <span className="flex items-center gap-2">
                     <MapPin className="h-4 w-4 flex-shrink-0" />
-                    Dhaka, Bangladesh
+                    Banani, Dhaka, Bangladesh
                   </span>
                 </div>
                 <ul className="text-muted-foreground leading-relaxed space-y-1 text-sm sm:text-base text-justify">
